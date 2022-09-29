@@ -15,10 +15,10 @@ foundry-config = { path = "./../config" }
 foundry-common = {path = "./../common"}
 
 futures = "0.3.17"
-ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-core = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-providers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
-ethers-signers = { git = "https://github.com/gakonst/ethers-rs", default-features = false }
+ethers-etherscan = { git = "https://github.com/gakonst/ethers-rs", rev = "ffcf10d6b3fa2ea90eb02a2cc7b5cb3b4c7726eb", default-features = false }
+ethers-core = { git = "https://github.com/gakonst/ethers-rs", rev = "ffcf10d6b3fa2ea90eb02a2cc7b5cb3b4c7726eb", default-features = false }
+ethers-providers = { git = "https://github.com/gakonst/ethers-rs", rev = "ffcf10d6b3fa2ea90eb02a2cc7b5cb3b4c7726eb", default-features = false }
+ethers-signers = { git = "https://github.com/gakonst/ethers-rs", rev = "ffcf10d6b3fa2ea90eb02a2cc7b5cb3b4c7726eb", default-features = false }
 eyre = "0.6.5"
 rustc-hex = "2.1.0"
 serde = "1.0.136"
